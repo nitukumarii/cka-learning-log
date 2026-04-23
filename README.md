@@ -16,15 +16,8 @@ It includes:
 ---
 
 ## 🗂️ Repository Structure
-cka-learning-log/
-│── README.md
-│── day-01-docker/
-│ └── docker-fundamentals.md
-│── day-02/
-│── labs/
-│ └── pod-examples.yaml
-│── cheatsheets/
-│ └── kubectl-commands.md
+<img width="257" height="227" alt="image" src="https://github.com/user-attachments/assets/ea818d54-0003-4aec-926b-a3ff7d481abf" />
+
 
 
 ---
