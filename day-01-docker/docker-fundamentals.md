@@ -100,17 +100,27 @@ Similarly, Docker brings:
 <img width="762" height="388" alt="image" src="https://github.com/user-attachments/assets/d03c1128-17b0-4b7f-848f-184699ad43b4" />
 
 
-Virtual Machines (VMs):
+🖥️ Virtual Machines (VMs)
 
-Each app runs on its own OS
-Heavy and slow
-High resource usage
+Virtual Machines simulate an entire system, including their own operating system.
 
-Docker Containers:
+Each application runs on a separate OS
+Requires more CPU, RAM, and storage
+Slower to start and manage
+Heavier setup due to full OS layer
 
-Share the host OS kernel
-Lightweight and fast
-Efficient resource usage
+👉 Good for strong isolation, but resource-heavy
+
+🐳 Docker Containers
+
+Docker containers share the host system’s OS kernel.
+
+Multiple apps run on the same OS kernel
+Lightweight and fast to start
+Uses fewer system resources
+Easy to scale and manage
+
+👉 Designed for speed, efficiency, and consistency
 
 🔹 **Docker Workflow (High Level)**
 
@@ -152,7 +162,8 @@ Docker Daemon → Engine (does the actual work)
 
 Code → Dockerfile → docker build → Image → Registry → docker pull → docker run → Container
 
-![Uploading image.png…]()
+<img width="1217" height="671" alt="image" src="https://github.com/user-attachments/assets/cd575573-af8a-4a31-925f-34f0782a38ff" />
+
 
 
 **🔹 Impact of Docker**
