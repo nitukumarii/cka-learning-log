@@ -5,6 +5,8 @@ Minimum: 4 GB RAM
 Ideal: 8–12 GB RAM + 4 CPUs
 Alternative if system is weak:
 Use cloud VMs like Microsoft Azure or Google Cloud Platform
+
+
 📦 **2. Docker Hub & Image Basics**
 Docker Hub = default public registry
 Key concepts:
